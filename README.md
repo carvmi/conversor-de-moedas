@@ -1,3 +1,13 @@
+# Conversor de moedas
+- A classe Scanner tem a finalidade de facilitar a entrada de dados no modo Console
+- Como a classe Scanner trabalha com entrada de dados, sempre é uma boa prática fazer o uso do try/catch para que os sistemas fiquem bem construídos
+- A classe Conversor é operacional, criada para ter interação com o usuário
+- Na classe conversor, existe o método exibirMenu, sem parâmetros,  e o método conversor, com parâmetros
+- O método nextInt() lê o que o usuário digitou e guarda dentro da variável
+- Deve ser adicionada uma estrutura de repetição (como While)
+- A estrutura de decisão (como switch, em que há casos específicos e um caso padrão) é adicionada na classe ConversorApp
+- A classe ConversorGrafico 'extends' JFrame e cria seus atributos (JMenuBar, JMenu e JMenuItem)
+- Na classe ConversorGrafico também deve ser definido um tamanho e um nome para a janela que será exibida, além de possibilitar que a janela seja fechada 
 ## Sobre o desafio
 O conversor de moeda deverá:
 - Converter de Reais a Dólar
@@ -25,3 +35,8 @@ Lembrando que deve ser possível também converter de forma inversa.
   ## Extras
    - Após o usuário clicar em continuar no programa, apresente a caixa de opções de conversão para que possa verificar outro valor
    - Faça mais de um programa de conversão, além do de moedas, pode fazer de temperatura, quilometragem, anos-luz
+  ## Documentações
+  https://docs.oracle.com/javase%2F7%2Fdocs%2Fapi%2F%2F/javax/swing/JFrame.html
+  https://docs.oracle.com/javase/8/docs/api/javax/swing/JMenu.html
+  https://docs.oracle.com/javase/8/docs/api/javax/swing/JMenuBar.html
+  https://docs.oracle.com/javase%2F7%2Fdocs%2Fapi%2F%2F/javax/swing/JMenuItem.html
