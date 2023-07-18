@@ -31,7 +31,16 @@ Lembrando que deve ser possível também converter de forma inversa.
    -  Utilizar o método showInputDialog como objeto para apresentar mais de uma opção para conversão;
   ## Mensagem do valor
    - Mostra para o usuário o valor da conversão realizada
-   - tilizar o método showMessageDialog para apresentar o valor da conversão
+   - Utilizar o método showMessageDialog para apresentar o valor da conversão
+  ## Tratamento de erro
+  - Caracteres que não são números não devem ser permitidos
+  - Se o usuário digitar em letras ou caracteres especiais e pressionar OK deve ser mostrado uma mensagem apontando que o valor não é válido
+  - Utilizar o método showMessageDialog para fazer validação no input para que não sejam aceitos caracteres
+  ## Deseja Continuar?
+  - Yes: deve trazer nosso usuário novamente para o menu principal
+  - No: Você deve mostrar uma mensagem "Programa finalizado"
+  - Cancel: Você deve mostrar uma mensagem de "Programa concluído"
+  - Utilizar o método showConfirmDialog para o usuário que deseja seguir no programa
   ## Extras
    - Após o usuário clicar em continuar no programa, apresente a caixa de opções de conversão para que possa verificar outro valor
    - Faça mais de um programa de conversão, além do de moedas, pode fazer de temperatura, quilometragem, anos-luz
@@ -40,3 +49,4 @@ Lembrando que deve ser possível também converter de forma inversa.
   https://docs.oracle.com/javase/8/docs/api/javax/swing/JMenu.html
   https://docs.oracle.com/javase/8/docs/api/javax/swing/JMenuBar.html
   https://docs.oracle.com/javase%2F7%2Fdocs%2Fapi%2F%2F/javax/swing/JMenuItem.html
+  https://docs.oracle.com/javase/8/docs/api/javax/swing/JOptionPane.html
