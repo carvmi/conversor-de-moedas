@@ -39,7 +39,7 @@ Lembrando que deve ser possível também converter de forma inversa.
   ## Deseja Continuar?
   - Yes: deve trazer nosso usuário novamente para o menu principal
   - No: Você deve mostrar uma mensagem "Programa finalizado"
-  - Cancel: Você deve mostrar uma mensagem de "Programa concluído"
+  - Cancel: Você deve mostrar uma mensagem de "Programa finalizado"
   - Utilizar o método showConfirmDialog para o usuário que deseja seguir no programa
   ## Extras
    - Após o usuário clicar em continuar no programa, apresente a caixa de opções de conversão para que possa verificar outro valor
