@@ -1,13 +1,6 @@
 # Conversor de moedas
-- A classe Scanner tem a finalidade de facilitar a entrada de dados no modo Console
-- Como a classe Scanner trabalha com entrada de dados, sempre é uma boa prática fazer o uso do try/catch para que os sistemas fiquem bem construídos
-- A classe Conversor é operacional, criada para ter interação com o usuário
-- Na classe conversor, existe o método exibirMenu, sem parâmetros,  e o método conversor, com parâmetros
-- O método nextInt() lê o que o usuário digitou e guarda dentro da variável
-- Deve ser adicionada uma estrutura de repetição (como While)
-- A estrutura de decisão (como switch, em que há casos específicos e um caso padrão) é adicionada na classe ConversorApp
-- A classe ConversorGrafico 'extends' JFrame e cria seus atributos (JMenuBar, JMenu e JMenuItem)
-- Na classe ConversorGrafico também deve ser definido um tamanho e um nome para a janela que será exibida, além de possibilitar que a janela seja fechada 
+- A classe Principal é operacional, criada para ter interação com o usuário
+- Deve ser adicionada uma estrutura de repetição e uma de estrutura de decisão
 ## Sobre o desafio
 O conversor de moeda deverá:
 - Converter de Reais a Dólar
