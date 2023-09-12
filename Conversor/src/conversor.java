@@ -28,7 +28,7 @@ public class conversor {
             if (escolha.equals("Reais para Dólares")) {
                 double dolares = valor * 0.16;
                 JOptionPane.showMessageDialog(null,
-                        valor + " reais são " + dolares + " dólares.");
+                        valor + " reais equivalem a " + dolares + " dólares.");
             } else if (escolha.equals("Reais para Euros")) {
                 double euros = valor * 0.19;
                 JOptionPane.showMessageDialog(null, valor + " reais equivalem a " + euros + " euros.");
