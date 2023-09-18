@@ -1,7 +1,6 @@
 # Conversor de moedas
 - A classe Principal é operacional, criada para ter interação com o usuário
 - Deve ser adicionada uma estrutura de repetição e uma de estrutura de decisão
-![menuprincipal](./menu-principal.PNG)
 ## Sobre o desafio
 O conversor de moeda deverá:
 - Converter de Reais a Dólar
@@ -15,6 +14,7 @@ Lembrando que deve ser possível também converter de forma inversa.
    - Deve permitir que o usuário escolha entre as opções de conversão. 
    - Utilizar a classe JOptionPane da biblioteca Javax.swing;
    - Utilizar o método showInputDialog como objeto para apresentar mais de uma opção;
+     ![menuprincipal](./menu-principal.PNG)
   ## Input do Valor
    - Deve permitir que o usuário insira o valor ou quantia de dinheiro que deseja converter para a moeda previamente escolhida
    - Lembre-se de que esta entrada deve ser validada e não deve aceitar outro tipo de caractere que não seja o tipo numérico
@@ -23,6 +23,7 @@ Lembrando que deve ser possível também converter de forma inversa.
    -  Deve permitir que o usuário escolha entre as diferentes moedas à qual ele quer converter seu dinheiro
    -  Utilizar a classe JOptionPane da biblioteca Javax;
    -  Utilizar o método showInputDialog como objeto para apresentar mais de uma opção para conversão;
+     ![conversordemoedas](./conversor-de-moedas.PNG)
   ## Mensagem do valor
    - Mostra para o usuário o valor da conversão realizada
    - Utilizar o método showMessageDialog para apresentar o valor da conversão
