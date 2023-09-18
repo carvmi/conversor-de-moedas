@@ -1,6 +1,6 @@
 # Conversor de moedas
 - A classe Principal é operacional, criada para ter interação com o usuário
-- Deve ser adicionada uma estrutura de repetição e uma de estrutura de decisão
+- Foi adicionado uma estrutura de repetição (Loop while) e uma de estrutura de decisão (If-Else)
 ## Sobre o desafio
 O conversor de moeda deverá:
 - Converter de Reais a Dólar
